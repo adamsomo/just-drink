@@ -1,5 +1,5 @@
 const navBar = 
-    <div class="ui menu">
+    <div class="ui inverted menu">
     <div class="header item">
       Bottoms up!
     </div>
