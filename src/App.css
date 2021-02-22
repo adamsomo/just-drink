@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.nav {
+  background-color: royalblue;
+  position: relative;
+  padding-bottom: 2em;
+  border: solid black 2px;
+  border-radius: 3em;
+  
+}
+
+.Title {
+  color: white;
+  text-align: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

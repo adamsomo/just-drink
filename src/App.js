@@ -1,31 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import './semantic/dist/semantic.css';
+
+const navBar = 'nav';
+const title = <h1 className="Title">Bottoms Up!</h1>
+const players = <h1 className="players">Player</h1>
 
 function App() {
-  const Header = () => {
-    return(
-      <header>
-        <h1>Scoreboard</h1>
-        <span className="stats">Players: 1</span>
-      </header>
-    );
-  }
+  return(
+  <div className={navBar}>
+    <span>{title}</span>
+  </div>
 
-  const Player = () => {
-    return(
-      <div className="player">
-        <span className ="player-name">
-          Adams
-        </span>
-        <div className="counter">
-          <button className="counter-action decrement"> - </button>
-          <span className="counter-score">35</span>
-          <button className="counter-action increment"> + </button>
+  );
 
-        </div>
-      </div>
-    )
-  }
 }
+
+
+
 
 export default App;
