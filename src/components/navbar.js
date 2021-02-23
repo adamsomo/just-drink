@@ -1,7 +1,7 @@
-const navBar = 
-    <div class="ui stackable inverted menu">
-    <div class="header item">
-      Bottoms up!
+const NavBar = (props) => 
+    <div className="ui stackable inverted menu">
+    <div className="header item title">
+      {props.title}
     </div>
     <a class="red item">
       About Us
@@ -14,4 +14,4 @@ const navBar =
     </a>
   </div> 
 
-export default navBar;
+export default NavBar;
