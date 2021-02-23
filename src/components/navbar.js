@@ -1,9 +1,9 @@
 const navBar = 
-    <div class="ui inverted menu">
+    <div class="ui stackable inverted menu">
     <div class="header item">
       Bottoms up!
     </div>
-    <a class="item">
+    <a class="red item">
       About Us
     </a>
     <a class="item">
